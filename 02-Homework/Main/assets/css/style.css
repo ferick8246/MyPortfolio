@@ -1,5 +1,5 @@
 * {
-  box-sizing:content-box;
+  box-sizing:border-box;
 }
 
 /* brand color palette */
@@ -194,7 +194,7 @@ main {
 .contact address {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content:first baseline; 
   align-items: center;
   height: 100%;
 }
