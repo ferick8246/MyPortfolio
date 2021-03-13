@@ -4,9 +4,9 @@
 
 /* brand color palette */
 :root {
-  --primary: rgb(68, 119, 75);
-  --secondary: rgb(192, 131, 182);
-  --tertiary: rgb(133, 187, 32);
+  --primary: rgb(12, 149, 108);
+  --secondary: rgb(37, 41, 235);
+  --tertiary: rgb(101, 190, 212);
   --dark: rgba(28, 29, 33, 1);
   --light: rgb(126, 11, 55);
 }
@@ -244,7 +244,7 @@ main {
 
 @media screen and (max-width: 980px) {
   header {
-    padding: 0 0 10px 0;
+    padding: 100 0 10px 0;
     justify-content: center;
     text-align: center;
   }
