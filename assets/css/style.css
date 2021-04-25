@@ -1,7 +1,15 @@
 * {
   box-sizing:border-box;
 }
-
+.logo {
+  background: none;
+  padding: 1rem;
+  border: solid blue;
+  color: blue;
+  transform: skewY(15deg);
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
 /* brand color palette */
 :root {
   --primary: rgb(10, 149, 107);
